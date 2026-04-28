@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>通用模型配置页面</title>
+  <link rel="stylesheet" href="./model-config.css">
+</head>
+<body>
+  <main id="model-config-root"></main>
+
+  <script src="./model-config.js"></script>
+  <script>
+    ModelConfigPage.mount('#model-config-root', {
+      mock: true,
+      title: '模型配置页面',
+      subtitle: '可复用的 Provider、模型、API Base、API Key、钉钉第三方应用配置、历史配置与连通性测试页面。'
+    });
+  </script>
+</body>
+</html>

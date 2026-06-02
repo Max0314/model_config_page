@@ -1,0 +1,112 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="1200" viewBox="0 0 1280 1200" role="img" aria-label="通用模型配置页面预览">
+  <rect width="1280" height="1200" fill="#f6f7f9"/>
+  <text x="70" y="72" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="30" font-weight="700">模型配置页面</text>
+  <text x="70" y="104" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">可复用的 Provider、模型、API Base、API Key、钉钉第三方应用配置、历史配置与连通性测试页面。</text>
+  <rect x="1070" y="50" width="120" height="40" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="1102" y="76" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">刷新配置</text>
+
+  <rect x="70" y="140" width="742" height="558" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <rect x="70" y="140" width="742" height="74" rx="8" fill="#ffffff"/>
+  <line x1="70" y1="214" x2="812" y2="214" stroke="#dfe4ea"/>
+  <text x="98" y="176" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700">模型配置</text>
+  <text x="98" y="199" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">选择 Provider 后会填入推荐 Base URL 和默认模型。</text>
+  <rect x="628" y="164" width="18" height="18" rx="4" fill="#2563eb"/>
+  <path d="M632 173 L637 178 L644 169" stroke="#ffffff" stroke-width="2.2" fill="none"/>
+  <text x="655" y="179" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14">启用模型调用</text>
+
+  <text x="98" y="258" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">Provider</text>
+  <rect x="98" y="270" width="300" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="298" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">OpenAI</text>
+  <path d="M372 288 L380 296 L388 288" stroke="#687386" stroke-width="2" fill="none"/>
+
+  <text x="455" y="258" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">文本模型</text>
+  <rect x="455" y="270" width="300" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="474" y="298" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">gpt-5.1-mini</text>
+
+  <text x="98" y="352" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">视觉模型</text>
+  <rect x="98" y="364" width="300" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="392" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">gpt-5.1-mini</text>
+
+  <text x="455" y="352" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">超时时间</text>
+  <rect x="455" y="364" width="300" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="474" y="392" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">30</text>
+
+  <text x="98" y="446" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">API Base</text>
+  <rect x="98" y="458" width="657" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="486" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">https://api.openai.com/v1</text>
+
+  <text x="98" y="540" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">API Key</text>
+  <rect x="98" y="552" width="657" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="580" fill="#9aa3b2" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">留空则保留当前 Key</text>
+  <text x="98" y="618" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">当前 Key：sk-****9a2c</text>
+
+  <rect x="98" y="640" width="98" height="40" rx="8" fill="#2563eb"/>
+  <text x="119" y="666" fill="#ffffff" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">保存配置</text>
+  <rect x="206" y="640" width="98" height="40" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="227" y="666" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">测试连接</text>
+  <rect x="314" y="640" width="132" height="40" rx="8" fill="#ffffff" stroke="#fecaca"/>
+  <text x="335" y="666" fill="#b91c1c" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">清空已保存 Key</text>
+
+  <rect x="836" y="140" width="374" height="558" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <line x1="836" y1="214" x2="1210" y2="214" stroke="#dfe4ea"/>
+  <text x="864" y="176" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700">环境信息</text>
+  <text x="864" y="199" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">默认环境</text>
+
+  <text x="864" y="260" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">配置来源</text>
+  <text x="966" y="260" fill="#1f2937" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">运行时配置</text>
+  <text x="864" y="300" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">更新时间</text>
+  <text x="966" y="300" fill="#1f2937" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">2026-04-28T10:00:00+08:00</text>
+  <text x="864" y="340" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">运行状态</text>
+  <text x="966" y="340" fill="#1f2937" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">保存后作用于新的模型请求</text>
+
+  <text x="864" y="404" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="17" font-weight="700">历史配置</text>
+  <rect x="864" y="424" width="318" height="88" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <text x="884" y="452" fill="#1f2937" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">OPENAI / gpt-5.1-mini</text>
+  <text x="884" y="476" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">Key: sk-****9a2c</text>
+  <text x="884" y="498" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">https://api.openai.com/v1</text>
+  <rect x="1096" y="442" width="30" height="30" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <text x="1105" y="462" fill="#475467" font-family="Arial, sans-serif" font-size="16">↩</text>
+  <rect x="1134" y="442" width="30" height="30" rx="8" fill="#f3f5f8" stroke="#dfe4ea"/>
+  <text x="1144" y="462" fill="#9aa3b2" font-family="Arial, sans-serif" font-size="16">×</text>
+
+  <rect x="864" y="526" width="318" height="88" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <text x="884" y="554" fill="#1f2937" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">QWEN / qwen3.6-plus</text>
+  <text x="884" y="578" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">Key: sk-****1bc8</text>
+  <text x="884" y="600" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">https://dashscope.aliyuncs.com/compatible-mode/v1</text>
+  <rect x="1096" y="544" width="30" height="30" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <text x="1105" y="564" fill="#475467" font-family="Arial, sans-serif" font-size="16">↩</text>
+  <rect x="1134" y="544" width="30" height="30" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <text x="1144" y="564" fill="#475467" font-family="Arial, sans-serif" font-size="16">×</text>
+
+  <rect x="70" y="730" width="1140" height="430" rx="8" fill="#ffffff" stroke="#dfe4ea"/>
+  <line x1="70" y1="804" x2="1210" y2="804" stroke="#dfe4ea"/>
+  <text x="98" y="766" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="20" font-weight="700">钉钉第三方应用配置</text>
+  <text x="98" y="789" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">按钉钉开放平台“应用凭证”填写。Client Secret 默认只支持替换、保留或清空。</text>
+  <text x="1040" y="774" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="13">环境变量或数据库配置</text>
+
+  <text x="98" y="848" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">CorpId</text>
+  <rect x="98" y="860" width="982" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="888" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">dingb7b711325c4be8aa35c2f4657eb6378f</text>
+
+  <text x="98" y="928" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">App ID</text>
+  <rect x="98" y="940" width="470" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="968" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">5dc7724f-9bcd-4817-a008-7640526ef20f</text>
+
+  <text x="610" y="928" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">原企业内部应用 AgentId</text>
+  <rect x="610" y="940" width="300" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="629" y="968" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">4524617888</text>
+
+  <text x="98" y="1008" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">Client ID（原 AppKey 和 SuiteKey）</text>
+  <rect x="98" y="1020" width="470" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="117" y="1048" fill="#172033" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">ding8q6n4keutpmuqost</text>
+
+  <text x="610" y="1008" fill="#344054" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">Client Secret（原 AppSecret 和 SuiteSecret）</text>
+  <rect x="610" y="1020" width="470" height="44" rx="8" fill="#ffffff" stroke="#c7d0dc"/>
+  <text x="629" y="1048" fill="#9aa3b2" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="15">留空则保留当前 Secret</text>
+  <text x="610" y="1084" fill="#687386" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="12">当前 Secret：hDoOja3Q1_****syfV9Otqok</text>
+
+  <rect x="98" y="1102" width="126" height="40" rx="8" fill="#2563eb"/>
+  <text x="119" y="1128" fill="#ffffff" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">保存钉钉配置</text>
+  <rect x="236" y="1102" width="146" height="40" rx="8" fill="#ffffff" stroke="#fecaca"/>
+  <text x="257" y="1128" fill="#b91c1c" font-family="Arial, 'Microsoft YaHei', sans-serif" font-size="14" font-weight="700">清空 Client Secret</text>
+</svg>

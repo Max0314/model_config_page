@@ -1,6 +1,6 @@
 # AGENTS.md
 
-本文件是 `tools/model-config-page` 的 AI 工程化约束。Codex 或其他 AI Agent 修改本项目时，应优先读取本文件、`README.md`、`api-contract.md`、`docs/workflow.md` 和对应的 `tasks/*.md`。
+本文件是 `tools/model-config-page` 的 AI 工程化约束。Codex 或其他 AI Agent 修改本项目时，应优先读取本文件、`README.md`、`api-contract.md`、`docs/workflow.md`、`docs/git-workflow.md` 和对应的 `tasks/*.md`。
 
 ## 项目边界
 
@@ -26,13 +26,13 @@
 
 ## 验证规则
 
-默认验证入口：
+当前工作模式是 PC 本地开发、Git 管理，Codex 通过 SSH 到宿主系统服务器部署和验证。优先运行本地可执行检查：
 
 ```bash
 make check
 ```
 
-至少确认静态入口、样式、脚本和接口契约存在。
+本地没有 `make` 时，至少确认静态入口、样式、脚本和接口契约存在。宿主系统接入、静态资源发布和线上页面验证可在对应服务器通过 SSH 执行。
 
 ## Git 规则
 
